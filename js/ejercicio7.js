@@ -12,9 +12,9 @@ function fibonacci(n)
         //nada
     }
     else if (n == 1) {
-        vector[0] = 0;
-    } else if (n>=2){
-        vector[0] = 0;
+        vector[0] = 1;
+    } else if (n>1){
+        vector[0] = 1;
         vector[1] = 1;
         for (var i = 2; i < n; i++) {
             vector[i] = vector[i - 2] + vector[i - 1];
