@@ -13,7 +13,7 @@ function fibonacci(n)
     }
     else if (n == 1) {
         vector[0] = 0;
-    } else {
+    } else if (n>=2){
         vector[0] = 0;
         vector[1] = 1;
         for (var i = 2; i < n; i++) {
