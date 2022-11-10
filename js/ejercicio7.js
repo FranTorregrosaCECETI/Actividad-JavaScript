@@ -2,7 +2,7 @@
  * Implementa la serie de Fibonacci
  * @param {*} n: número de elementos de la serie.
  * @returns vector con la serie de Fibonacci.
- * @author: Sustituye tu nombre y apellidos aquí
+ * @author: Fran Torregrosa
  */
 function fibonacci(n)
 {
