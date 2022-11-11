@@ -10,7 +10,7 @@ function calcularMedia(v)
     for (i=0;i<v.length;i++){
         sumatorio=sumatorio+v[i];
     }
-    return sumatorio/v.length;
+    return sumatorio==0?sumatorio:sumatorio/v.length;
 }
 /**
  * Obtiene la nota mínima
@@ -19,7 +19,7 @@ function calcularMedia(v)
  */
 function calcularMinimo(v)
 {
-    let minima;
+    let minima=0;
     if (v.length>0){
         minima=v[0];
     }
@@ -37,7 +37,7 @@ function calcularMinimo(v)
  */
 function calcularMaximo(v)
 {
-    let maxima; 
+    let maxima=0; 
     if (v.length>0){
         maxima=v[0];
     }

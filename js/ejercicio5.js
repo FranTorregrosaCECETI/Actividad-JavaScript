@@ -37,10 +37,10 @@ function obtenerCalificacion(nota)
             calificacion = "Muy deficiente";
             break;
         case (nota >= 3 && nota < 5):
-            calificacion = " Insuficiente";
+            calificacion = "Insuficiente";
             break;
         case (nota >= 5 && nota < 6):
-            calificacion = " Suficiente";
+            calificacion = "Suficiente";
             break;
         case (nota >= 6 && nota < 7):
             calificacion = "Bien";
